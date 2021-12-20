@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: gateway
-          image: gcr.io/$_PROJECT_ID/gateway
+          image: gcr.io/direct-mission-335006/gateway
           ports:
             - containerPort: 8080
